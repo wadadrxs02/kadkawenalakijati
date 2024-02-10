@@ -118,7 +118,10 @@
 }
 
 .modal-header {
-  background-color: #ebbf64;
+  background-color: #11171d;
+}
+h5 {
+  color: white !important;
 }
 
 .buttonhadir {
@@ -322,8 +325,8 @@
 #timer {
   font-size: 2.5em;
   font-weight: 100;
-  color: #ebbf64;
-  text-shadow: 0 0 20px #ebbf64;
+  color: #11171d;
+  text-shadow: 0 0 20px #11171d;
 }
 
 #timer div {
@@ -342,7 +345,7 @@
     position: relative;
     width: 70vmin;
     height: 70vmin;
-    background: #ebbf64;
+    background: white;
     -webkit-clip-path: polygon(
       50% 0%,
       83% 12%,
@@ -404,7 +407,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: #11171d;
 
     object-fit: contain;
   }
@@ -439,7 +442,7 @@ body {
   background-color: white;
 }
 .btn-primary {
-  background-color: #ebbf64 !important;
+  background-color: #11171d !important;
   border: 0;
   color: #000000;
 }
@@ -512,8 +515,8 @@ ul {
 }
 
 .button-17:hover {
-  background: #fdf0d5;
-  color: #ebbf64;
+  /* background: #3d3d3c; */
+  /* color: #11171d; */
 }
 
 .button-17:active {
@@ -524,7 +527,7 @@ ul {
 
 .button-17:focus {
   outline: none;
-  border: 2px solid #ebbf64;
+  border: 2px solid #11171d;
 }
 
 .button-17:not(:disabled) {
