@@ -55,6 +55,18 @@
         modal.classList.add('hide')
         play()
     }
+
+    document.addEventListener('DOMContentLoaded', function () {
+            var isIOS = /iPhone|iPad|iPod/i.test(navigator.userAgent);
+            var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+
+            if (!(isIOS && isSafari)) {
+                var arButton = document.getElementById('AR-ios-button');
+                if (arButton) {
+                    arButton.style.display = 'none';
+                }
+            }
+        });
 </script>
 
 </html>
